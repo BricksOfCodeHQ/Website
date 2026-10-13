@@ -1,0 +1,26 @@
+body {
+  font-family: system-ui, sans-serif;
+}
+
+/* Home page: everything centered on screen */
+.home {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home img {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+}
+
+/* Text pages (legal notice, privacy policy): readable column */
+.document {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px;
+}
